@@ -5,7 +5,7 @@ Algoritmo Primos
 	primo = falso;
 	Escribir "Ingrese un numero";
 	Leer numero;
-	Para i<-1 Hasta (numero - 1) Con Paso 1 Hacer
+	Para i<-2 Hasta (numero - 1) Con Paso 1 Hacer
 		remanente = numero mod i;
 		Si remanente = 0 Entonces
 			primo = verdadero;
